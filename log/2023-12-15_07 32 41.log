@@ -1,0 +1,31 @@
+2023-12-15 07:32:41,070 - root - INFO - Namespace(data='UCI-Msg', bs=200, prefix='', n_degree=20, n_epoch=50, lr=1e-05, patience=8, n_runs=10, drop_out=0.1, gpu=0, node_dim=100, backprop_every=1, aggregator='last', message_dim=100, memory_dim=100, different_new_nodes=False, uniform=False, seed=0, threshold=2)
+2023-12-15 07:32:42,164 - jaxlib.mlir._mlir_libs - DEBUG - Initializing MLIR with module: _site_initialize_0
+2023-12-15 07:32:42,165 - jaxlib.mlir._mlir_libs - DEBUG - Registering dialects from initializer <module 'jaxlib.mlir._mlir_libs._site_initialize_0' from '/usr/local/lib/python3.10/dist-packages/jaxlib/mlir/_mlir_libs/_site_initialize_0.so'>
+2023-12-15 07:32:42,279 - jax._src.path - DEBUG - etils.epath found. Using etils.epath for file I/O.
+2023-12-15 07:32:42,780 - root - INFO - num of training instances: 36027
+2023-12-15 07:32:42,781 - root - INFO - num of batches per epoch: 181
+2023-12-15 07:32:42,785 - root - INFO - start 0 epoch
+2023-12-15 07:32:59,223 - root - INFO - epoch: 0 took 16.44s
+2023-12-15 07:32:59,224 - root - INFO - Epoch mean loss: 1.4404640895885656
+2023-12-15 07:32:59,224 - root - INFO - val mrr: 0.012073402057968004, new node val mrr: 0.005285468215469232
+2023-12-15 07:32:59,224 - root - INFO - val recall 20: 0.04185382513661203, new node val recall 20: 0.011811526479750778
+2023-12-15 07:32:59,224 - root - INFO - val recall 50: 0.11432604735883425, new node val recall 50: 0.03576791277258567
+2023-12-15 07:32:59,333 - root - INFO - start 1 epoch
+2023-12-15 07:33:14,854 - root - INFO - epoch: 1 took 15.53s
+2023-12-15 07:33:14,854 - root - INFO - Epoch mean loss: 1.3175103051886374
+2023-12-15 07:33:14,854 - root - INFO - val mrr: 0.012000105003690495, new node val mrr: 0.00762463545874892
+2023-12-15 07:33:14,855 - root - INFO - val recall 20: 0.0429007285974499, new node val recall 20: 0.022833333333333334
+2023-12-15 07:33:14,855 - root - INFO - val recall 50: 0.10619672131147541, new node val recall 50: 0.04472429906542056
+2023-12-15 07:33:14,970 - root - INFO - start 2 epoch
+2023-12-15 07:33:30,947 - root - INFO - epoch: 2 took 15.99s
+2023-12-15 07:33:30,947 - root - INFO - Epoch mean loss: 1.2952105840925354
+2023-12-15 07:33:30,947 - root - INFO - val mrr: 0.012259229440804315, new node val mrr: 0.008714981672228799
+2023-12-15 07:33:30,948 - root - INFO - val recall 20: 0.0444476320582878, new node val recall 20: 0.024333333333333335
+2023-12-15 07:33:30,948 - root - INFO - val recall 50: 0.09580965391621131, new node val recall 50: 0.05122429906542055
+2023-12-15 07:33:31,062 - root - INFO - start 3 epoch
+2023-12-15 07:33:46,917 - root - INFO - epoch: 3 took 15.87s
+2023-12-15 07:33:46,918 - root - INFO - Epoch mean loss: 1.2788925289449111
+2023-12-15 07:33:46,918 - root - INFO - val mrr: 0.014929167411347245, new node val mrr: 0.009437278144696661
+2023-12-15 07:33:46,918 - root - INFO - val recall 20: 0.053778688524590154, new node val recall 20: 0.0275576323987539
+2023-12-15 07:33:46,918 - root - INFO - val recall 50: 0.11409608378870674, new node val recall 50: 0.0491588785046729
+2023-12-15 07:33:47,026 - root - INFO - start 4 epoch

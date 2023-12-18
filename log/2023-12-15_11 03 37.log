@@ -1,0 +1,7 @@
+2023-12-15 11:03:37,336 - root - INFO - Namespace(data='UCI-Msg', bs=200, prefix='', n_degree=20, n_epoch=50, lr=1e-05, patience=8, n_runs=10, drop_out=0.1, gpu=0, node_dim=100, backprop_every=1, aggregator='last', message_dim=100, memory_dim=100, different_new_nodes=False, uniform=False, seed=0, threshold=2)
+2023-12-15 11:03:41,804 - jaxlib.mlir._mlir_libs - DEBUG - Initializing MLIR with module: _site_initialize_0
+2023-12-15 11:03:41,804 - jaxlib.mlir._mlir_libs - DEBUG - Registering dialects from initializer <module 'jaxlib.mlir._mlir_libs._site_initialize_0' from '/usr/local/lib/python3.10/dist-packages/jaxlib/mlir/_mlir_libs/_site_initialize_0.so'>
+2023-12-15 11:03:42,119 - jax._src.path - DEBUG - etils.epath found. Using etils.epath for file I/O.
+2023-12-15 11:03:43,225 - root - INFO - num of training instances: 36027
+2023-12-15 11:03:43,225 - root - INFO - num of batches per epoch: 181
+2023-12-15 11:03:43,228 - root - INFO - start 0 epoch

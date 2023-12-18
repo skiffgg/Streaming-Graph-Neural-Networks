@@ -1,0 +1,1 @@
+2023-12-15 11:48:58,833 - root - INFO - Namespace(data='UCI-Msg', bs=200, prefix='', n_degree=20, n_epoch=50, lr=1e-05, patience=8, n_runs=10, drop_out=0.1, gpu=0, node_dim=100, backprop_every=1, aggregator='last', message_dim=100, memory_dim=100, different_new_nodes=False, uniform=False, seed=0, threshold=2)
